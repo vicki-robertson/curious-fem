@@ -1,4 +1,19 @@
 /*mobile style*/
+header{
+    display: flex;
+    background-color: var(--medium-green);
+    width: 100%;
+}
+
+.header img{
+    width: 50px;
+}
+
+.header h1{
+    font-size: 20px;
+}
+
+
 
 
 
