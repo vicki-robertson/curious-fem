@@ -3,8 +3,8 @@
 header {
     display: flex;
     flex-direction: row;
-    /* height: 11rem;
-    width: 100vw; */
+    height: 11rem;
+    width: 100vw;
     align-items: center;
     justify-content: center;
     background-color: var(--green);
