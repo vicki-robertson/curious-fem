@@ -1,21 +1,39 @@
 /*mobile style*/
-.header {
+header {
     display: flex;
-    background-color: var(--medium-green);
-    width: 100%;
+    flex-direction: row;
+    height: 11rem;
+    width: 100vw;
     align-items: center;
     justify-content: center;
     background-color: var(--green);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.header img{
-    width: 50px;
+
+.header-box {
+    padding: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* max-height: 7.5rem; */
 }
 
-.header h1{
-    font-size: 20px;
+.header-box img {
+    width: 7.5rem;
+    height: 7.5rem;
+    padding-left: 0.5rem;
 }
+
+.header-box h1 {
+    max-width: 10.5rem;
+    max-height: 7rem;
+}
+
+
+
+/*desktop style responsive*/
 
 
 

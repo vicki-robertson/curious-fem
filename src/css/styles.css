@@ -20,8 +20,13 @@
     background-color: var(--white);
     color: var(--black);
     font-family: Poppins, sans-serif;
-    font-style: normal;
-    /* box-sizing: border-box; */
+}
+
+body {
+    background-color: var(--white);
+    color: var(--black);
+    font-family: Poppins, sans-serif;
+    width: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
