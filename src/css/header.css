@@ -4,7 +4,7 @@ header {
     display: flex;
     flex-direction: row;
     height: 11rem;
-    width: 100vw;
+    width: 100%;
     align-items: center;
     justify-content: center;
     background-color: var(--green);
