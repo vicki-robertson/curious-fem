@@ -1,6 +1,57 @@
-/*hshshs*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
 
 :root {
     --yellow: #F0D232;
+    --orange: #D27A2B;
+    --peach: #FFD9B7;
+    --light-green: #C8E4B2;
+    --green: #94D7BD;
+    --medium-green: #7EAA92;
+    --dark-green: #3D634E;
+    --black: #22202A;
+    --white: #FFFFFF;
+};
+
+* {
+    background-color: var(--white);
+    color: var(--black);
+    font-family: Poppins, sans-serif;
+}
+
+/* mobile */
+h1 {
+    font-family: Potta One, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+footer {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* desktop - mirar tamaño media query!! */
+@media only screen and (max-width: 1000px) {  
+    footer {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+    }
 }
