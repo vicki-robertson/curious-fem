@@ -1,5 +1,21 @@
 /*mobile style*/
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--green);
+    height: 4rem; 
+    text-align: center;
+    justify-content: center;
+}
 
+footer h3 { 
+    text-align: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    
+}
 
 
 

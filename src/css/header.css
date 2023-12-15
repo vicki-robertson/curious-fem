@@ -1,7 +1,21 @@
 /*mobile style*/
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--green);
+    height: 11rem;
+    width: 100%;
+}
+/* 
+.header img {
+    height: 5rem;
+    width: 5rem;
+} */
+ .header h1 { 
+    
+    white-space: normal;
 
 
-
-
+}
 
 /*desktop style responsive*/
