@@ -1,0 +1,105 @@
+/* Estilos de curiousfacts */
+
+
+
+
+
+.container-facts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--peach);
+    width: 20rem;
+    height: 37.5rem;
+    border-radius: 45px;
+    margin: 2rem;
+    
+}
+
+.back-btn {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    background-color: var(--green);
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    width: 6rem;
+    height: 3.5rem;
+    margin-top: 2rem;
+    margin-right: 55%;
+}
+
+.back-btn img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.back-btn h3 {
+    display: none;
+    /* align-items: flex-end; */
+}
+
+.text-box-facts {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    background-color: var(--medium-green);
+    border-radius: 35px;
+    width: 17rem;
+    height: 16rem;
+    margin-top: 2rem;
+    flex-grow: 2 
+}
+
+.text-box-facts p {
+    text-align: left;
+    padding: 1rem;
+}
+
+.new-fact-btn img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1.25rem;
+}
+
+.new-fact-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--dark-green);
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    width: 17rem;
+    height: 3.5rem;
+    margin-top: 3rem;
+}
+
+
+.favorites-btn img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1.25rem;
+}
+
+.favorites-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--orange);
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    width: 17rem;
+    height: 3.5rem;
+    margin-top: 1rem;
+}
+
+/*desktop style responsive*/
