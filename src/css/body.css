@@ -39,6 +39,108 @@ a{
     color: black;
 }
 
+
+/* Estilos de curiousfacts */
+
+
+
+.back-btn {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    background-color: var(--green);
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    width: 6rem;
+    height: 3.5rem;
+    margin-top: 2rem;
+    margin-right: 55%;
+}
+
+.back-btn img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.back-btn p {
+    display: none;
+    /* align-items: flex-end; */
+}
+
+.container-facts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--peach);
+    width: 22.5rem;
+    height: 37.5rem;
+    border-radius: 45px;
+    margin: 2rem;
+}
+
+
+
+.text-box-facts {
+    display: block;
+    /* flex-direction: column; */
+    justify-content: center;
+    background-color: var(--medium-green);
+    border-radius: 35px;
+    width: 19rem;
+    height: 14rem;
+    margin-top: 4rem; 
+}
+
+.text-box-facts p {
+    text-align: left;
+    padding: 1rem;
+}
+
+.new-fact-btn img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1.25rem;
+}
+
+.new-fact-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--dark-green);
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    width: 19rem;
+    height: 3.5rem;
+    margin-top: 2rem;
+}
+
+
+.favorites-btn img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1.25rem;
+}
+
+.favorites-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--orange);
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    width: 19rem;
+    height: 3.5rem;
+    margin-top: 1rem;
+}
 /*meeeeeeeee madre funciona*/
 
 /*desktop style responsive*/
