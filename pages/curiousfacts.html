@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="../src/css/styles.css">
     <link rel="shortcut icon" href="../assets/img/robot-logo.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,24 +9,34 @@
 </head>
 <body>
     <header>
-        <div class="header">
-            <h1>CuriousFacts</h1>
+        <div class="header-box">
+            <h1>Curious Facts</h1>
             <img src="../assets/img/robot-logo.png" alt="logo of a robot">
         </div>
     </header>
 
     <main class="page-facts">
-    <a href="../index.html"><button type="button" name="back"></button></a>
-    <section class="text-box-facts">
-        <div>
-            <p>text-1</p>
-        </div>
-    </section>
+    
+        <section class="container-facts">
+            <a class="back-btn" href="../index.html">
+                <img src="../assets/img/go-back-icon.svg" alt="">
+                <p>Back</p>
+            </a>
 
-    <section class="btn-facts-section">
-       <div class="new-fact-btn"><a href="#"><button type="button" name="See new fact">See new fact</button></a></div>
-       <div class="favorites-btn"><a href="./favorites.html"><button type="button" name="Add to fav">Add to favorite</button></a></div>
-    </section>
+            <div class="text-box-facts">
+                <p>text-1</p>
+            </div>
+
+            <a class="new-fact-btn" href="#"> 
+                <img src="../assets/img/see-more-icon.svg" alt="icono de volver a recargar">
+                <p>See new fact</p>
+            </a>
+            
+            <a class="favorites-btn" href="./favorites.html" alt="">
+                <img src="../assets/img/heart-icon.svg" alt="">
+                <p>Add to favorite</p>
+            </a>
+        </section>
     </main>
     
     <footer>
