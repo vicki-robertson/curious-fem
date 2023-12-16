@@ -31,6 +31,10 @@ header {
     max-height: 7rem;
 }
 
+a h1 {
+    text-decoration: none;
+    color: black;
+}
 
 
 /*desktop style responsive*/

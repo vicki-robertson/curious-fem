@@ -1,0 +1,70 @@
+/* Estilos de curiousfacts */
+
+/* body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  } */
+  
+.container-facts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--peach);
+    width: 20rem;
+    border-radius: 45px;
+    margin: 2rem;
+    padding-bottom: 2rem;
+    flex: 1;
+    min-height: 37.5rem;
+}
+
+.back-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--green);
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    max-height: 3.5rem;
+    margin: 2rem 13rem 1rem 0;
+    margin-right: 13rem;
+}
+
+.back-btn img {
+    width: 4rem;
+    height: 2rem;
+    padding: 0.75rem 0;
+    justify-content: center;
+}
+
+.back-btn h3 {
+    display: none;
+}
+
+.text-box-facts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--medium-green);
+    border-radius: 35px;
+    margin: 0.75rem 1.5rem 0.75rem 1.5rem;
+    padding: 1rem;
+    min-width: 15rem;
+    /* flex: 1; */
+}
+
+.text-box-facts p {
+    text-align: left;
+    max-width: 14rem;
+    margin: 0;
+}
+
+
+
+
+
+
+/*desktop style responsive*/
