@@ -18,4 +18,9 @@ footer h3 {
 
 /*desktop style responsive*/
 
-/*desktop style responsive*/
+@media only screen and (min-width: 767px) {  
+    
+    footer h3 {
+        font-size: 1.5rem;
+    }
+}
