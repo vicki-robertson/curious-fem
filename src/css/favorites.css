@@ -66,6 +66,19 @@
 
 
 
+/* Estilo para el botón de eliminar */
+button.delete-btn {
+    background-color: var(--orange);
+    color: #fff; 
+    border: none; 
+    padding: 8px 12px; 
+    border-radius: 55px; 
+    cursor: pointer; 
+}
+
+button.delete-btn:hover {
+    background-color: var(--yellow); 
+}
 
 
 
