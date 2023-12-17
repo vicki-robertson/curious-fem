@@ -1,41 +1,41 @@
-import requests   // para realizar solicitudes HTTP a la API
+document.addEventListener('DOMContentLoaded', function () {
+  const factContainer = document.getElementById('fact-container');
+  const newFactBtn = document.querySelector('.new-fact-btn');
+  const favoritesBtn = document.querySelector('.favorites-btn');
 
-
-def get_random_fact():
-  """
-  Obtiene un dato aleatorio de la API.
-
-  Returns:
-    El dato aleatorio.
-  """
-
-  response = requests.get("https://uselessfacts.jsph.pl/api/v2/facts/random?language=en")
-  if response.status_code == 200:
-    return response.json()
-  else:
-    return None
-
-document.querySelector("#see-new-fact").onclick = see_new_fact;
-
-function see_new_fact() {
-    var fact = get_random_fact();
-  
-    if (fact) {
-      document.querySelector(".fact").textContent = fact["fact"];
-    }
+  // Función para cargar un nuevo hecho desde la API
+  function loadNewFact() {
+      // Realizar la solicitud a la API
+      fetch('https://uselessfacts.jsph.pl/api/v2/facts/random?language=en')
+          .then(response => response.json())
+          .then(data => {
+              // Actualizar el contenido del contenedor con el nuevo hecho
+              factContainer.innerHTML = `<p>${data.text}</p>`;
+          })
+          .catch(error => console.error('Error fetching data:', error));
   }
 
+  // Función para agregar un hecho a la lista de favoritos
+  function addToFavorites() {
+      // Obtener el texto actual del contenedor de hechos
+      const factText = factContainer.innerHTML;
 
-  document.querySelector("#add-to-favorite").onclick = add_to_favorite;
+      // Obtener la lista de favoritos almacenada en localStorage
+      const storedFavorites = JSON.parse(localStorage.getItem('favorites')) || [];
 
-  function add_to_favorite() {
-    // Obtener el dato aleatorio.
-    var fact = get_random_fact();
-  
-    // Enviar el dato a la otra página.
-    var xhr = new XMLHttpRequest();
-    xhr.open("POST", "https://otra-pagina.com/add_fact");
-    xhr.setRequestHeader("Content-Type", "application/json");
-    xhr.send(JSON.stringify(fact));
+      // Agregar el nuevo hecho a la lista de favoritos
+      storedFavorites.push(factText);
+
+      // Almacenar la lista actualizada en localStorage
+      localStorage.setItem('favorites', JSON.stringify(storedFavorites));
   }
-  
+
+  // Evento al hacer clic en el botón "See new fact"
+  newFactBtn.addEventListener('click', loadNewFact);
+
+  // Evento al hacer clic en el botón "Add to favorite"
+  favoritesBtn.addEventListener('click', addToFavorites);
+
+  // Cargar un hecho al cargar la página
+  loadNewFact();
+});
