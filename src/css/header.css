@@ -31,14 +31,28 @@ header {
     max-height: 7rem;
 }
 
+a h1 {
+    text-decoration: none;
+    color: black;
+}
 
 
 /*desktop style responsive*/
 
+@media only screen and (min-width: 767px) {  
+    
+    .header-box h1 {
+        max-width: 60rem;
+        max-height: 20rem;
+        font-family: Potta One, sans-serif;
+        font-size: 70px;
+        font-weight: 400;
+    }
 
+    .header-box img {
+        width: 11rem;
+        height: 11rem;
+        padding-left: 1rem;
+    } 
+}
 
-
-
-
-
-/*desktop style responsive*/

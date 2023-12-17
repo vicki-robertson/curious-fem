@@ -60,28 +60,28 @@ p {
 
 
 /* desktop - mirar tamaño media query!! */
-@media only screen and (max-width: 1000px) {  
+@media only screen and (min-width: 767px) {  
     
-    /* h1 {
+    h1 {
         font-family: Potta One, sans-serif;
         font-size: 40px;
         font-weight: 400;
-    },
+    }
 
     h2 {
         font-size: 40px;
         font-weight: 700;
-    },
+    }
         
     h3 {
         font-size: 24px;
         font-weight: 400;
         text-align: center;
-    },
+    }
 
     p {
         font-size: 32px;
         font-style: normal;
         font-weight: 500;
-    } */
+    }
 }
