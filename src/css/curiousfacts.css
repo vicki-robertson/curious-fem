@@ -1,57 +1,59 @@
 /* Estilos de curiousfacts */
+
+
+
+
+
 .container-facts {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--peach);
     width: 20rem;
-    height: 37.5rem;
+    height: 40rem;
     border-radius: 45px;
     margin: 2rem;
-    
+    padding-bottom: 2rem;
 }
 
 .back-btn {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    /* text-align: center; */
+    justify-content: flex-start;
     background-color: var(--green);
     border-radius: 20px;
     color: #fff;
     cursor: pointer;
-    width: 6rem;
-    height: 3.5rem;
-    margin-top: 2rem;
-    margin-right: 55%;
+    max-height: 3.5rem;
+    margin: 2rem 13rem 1rem 0;
+    margin-right: 13rem;
 }
 
 .back-btn img {
-    width: 2rem;
+    width: 4rem;
     height: 2rem;
+    padding: 0.75rem 0;
+    justify-content: center;
 }
 
 .back-btn h3 {
     display: none;
-    /* align-items: flex-end; */
 }
 
 .text-box-facts {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     justify-content: center;
     background-color: var(--medium-green);
     border-radius: 35px;
-    width: 17rem;
-    height: 16rem;
-    margin-top: 2rem;
-    flex-grow: 2 
+    margin: 2rem 1.5rem;
+    padding: 1rem;
 }
 
 .text-box-facts p {
     text-align: left;
-    padding: 1rem;
+    max-width: 14rem;
 }
 
 .new-fact-btn img {
@@ -62,24 +64,22 @@
 
 .new-fact-btn {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    text-align: center; 
     background-color: var(--dark-green);
     border-radius: 20px;
     color: #fff;
     cursor: pointer;
-    width: 17rem;
-    height: 3.5rem;
-    margin-top: 3rem;
+    padding: 0 3rem;
+    max-height: 3.5rem;
+    margin: 1rem 0 1rem 0;
 }
 
 
 .favorites-btn img {
     width: 2rem;
     height: 2rem;
-    margin-right: 1.25rem;
+    margin-right: 1rem;
 }
 
 .favorites-btn {
@@ -92,9 +92,40 @@
     border-radius: 20px;
     color: #fff;
     cursor: pointer;
-    width: 17rem;
-    height: 3.5rem;
-    margin-top: 1rem;
+    padding: 0 2.5rem;
+    max-height: 3.5rem;
 }
 
 /*desktop style responsive*/
+@media only screen and (min-width: 768px) {
+  
+     a.back-btn {
+        margin: 2rem 48rem 1rem 0;
+    }
+    
+    .container-facts {
+        min-width: 65rem;
+        min-height: 38rem;
+    }
+    
+    .text-box-facts {
+        min-width: 52rem;
+        min-height: 15rem;
+    }
+
+    .text-box-facts p {
+        text-align: left;
+        min-width: 47rem;
+        padding: 1.5rem;
+    }
+
+    .btn-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 4.5rem;
+        min-width: 47rem;
+        padding: 1.5rem;
+    }
+}
