@@ -68,3 +68,25 @@
 
 
 /*desktop style responsive*/
+@media only screen and (min-width: 768px) {
+    
+    /* .container-facts {
+        background-color: var(--peach);
+        min-width: 85.5rem;
+        border-radius: 55px;
+        margin: 1rem;
+        padding-bottom: 2rem;
+        min-height: 35.9rem;
+    }
+    .text-box-facts {
+        border-radius: 45px;
+        max-width: 51.25rem;
+        min-height: 13.75rem;
+        align-items: center;
+        
+    }
+    .text-box-facts p {
+        font-size: 24px;
+    } */
+    
+}
