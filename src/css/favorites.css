@@ -70,6 +70,21 @@
 /*desktop style responsive*/
 @media only screen and (min-width: 768px) {
     
+    .container-facts {
+        min-width: 65rem;
+        min-height: 38rem;
+    }
+
+    .text-box-facts {
+        min-width: 52rem;
+        min-height: 15rem;
+    }
+
+    .text-box-facts p {
+        text-align: left;
+        min-width: 47rem;
+        padding: 1.5rem;
+    }
     /* .container-facts {
         background-color: var(--peach);
         min-width: 85.5rem;
