@@ -2,8 +2,9 @@
 .facts-box, .favorites-box{
     background-color: var(--peach);
     border-radius:  55px 55px 60px 60px; 
-    margin: 50px;
+    margin: 30px 0px 30px 0px;
     box-shadow: 0px 0px 5px 5px #0000002b;
+    min-width: 19rem;
 }
 
 .facts-bkground img{
@@ -22,8 +23,8 @@
 
 .favorites-bkground img {
     height: 200px;
-    width: 200px;
-    margin-left: 11%;
+    width: 180px;
+    margin-left: 18%;
 }
 
 .favorites-floor{
@@ -39,108 +40,26 @@ a {
 }
 
 
-
-/* Estilos de curiousfacts */
-
-
-
-.back-btn {
-    display: flex;
-    /* flex-direction: column; */
-    align-items: center;
-    justify-content: center;
-    /* text-align: center; */
-    background-color: var(--green);
-    border-radius: 20px;
-    color: #fff;
-    cursor: pointer;
-    width: 6rem;
-    height: 3.5rem;
-    margin-top: 2rem;
-    margin-right: 55%;
-}
-
-.back-btn img {
-    width: 2rem;
-    height: 2rem;
-}
-
-.back-btn p {
-    display: none;
-    /* align-items: flex-end; */
-}
-
-.container-facts {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--peach);
-    width: 22.5rem;
-    height: 37.5rem;
-    border-radius: 45px;
-    margin: 2rem;
-}
-
-
-
-.text-box-facts {
-    display: block;
-    /* flex-direction: column; */
-    justify-content: center;
-    background-color: var(--medium-green);
-    border-radius: 35px;
-    width: 19rem;
-    height: 14rem;
-    margin-top: 4rem; 
-}
-
-.text-box-facts p {
-    text-align: left;
-    padding: 1rem;
-}
-
-.new-fact-btn img {
-    width: 2rem;
-    height: 2rem;
-    margin-right: 1.25rem;
-}
-
-.new-fact-btn {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: var(--dark-green);
-    border-radius: 20px;
-    color: #fff;
-    cursor: pointer;
-    width: 19rem;
-    height: 3.5rem;
-    margin-top: 2rem;
-}
-
-
-.favorites-btn img {
-    width: 2rem;
-    height: 2rem;
-    margin-right: 1.25rem;
-}
-
-.favorites-btn {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: var(--orange);
-    border-radius: 20px;
-    color: #fff;
-    cursor: pointer;
-    width: 19rem;
-    height: 3.5rem;
-    margin-top: 1rem;
-}
-/*meeeeeeeee madre funciona*/
-
 /*desktop style responsive*/
+@media only screen and (min-width: 1000px) {  
+    .facts-box, .favorites-box{
+        background-color: var(--peach);
+        border-radius:  55px 55px 60px 60px; 
+        box-shadow: 0px 0px 5px 5px #0000002b;
+        min-width: 500px;
+        margin-top: 20px;
+        min-height: 500px
+    }
+
+    .favorites-box{
+        margin-left: 10%;
+    }
+    
+    .favorites-box{
+        margin-right: 30%;
+    }
+
+    
+
+
+}
