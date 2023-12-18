@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // Event when "See new fact" button is clicked
   newFactBtn.addEventListener('click', loadNewFact);
 
-  // Evento when "Add to favorites" button is clicked
+  // Event when "Add to favorites" button is clicked
   favoritesBtn.addEventListener('click', addToFavorites);
 
   // Load a fact on the page
