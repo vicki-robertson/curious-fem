@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             const deleteBtn = document.createElement('button');
             deleteBtn.innerText = 'Delete';
-            deleteBtn.classList.add('delete-btn'); // clase para darle estiloal boton de delet
+            deleteBtn.classList.add('delete-btn'); // class to add styles to the delete button
             deleteBtn.addEventListener('click', () => deleteFavorite(index));
 
             favoriteFact.appendChild(deleteBtn);

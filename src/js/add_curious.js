@@ -3,40 +3,40 @@ document.addEventListener('DOMContentLoaded', function () {
   const newFactBtn = document.querySelector('.new-fact-btn');
   const favoritesBtn = document.querySelector('.favorites-btn');
 
-  // Función para cargar un nuevo hecho desde la API
+  // Function to load a new Curious Fact from the API
   function loadNewFact() {
-      // Realizar la solicitud a la API
+      // Fetch from the API
       fetch('https://uselessfacts.jsph.pl/api/v2/facts/random?language=en')
           .then(response => response.json())
           .then(data => {
-              // Actualizar el contenido del contenedor con el nuevo hecho
+              // Update the content in the Curious Facts container
               factContainer.innerHTML = `<p>${data.text}</p>`;
           })
           .catch(error => console.error('Error fetching data:', error));
   }
 
-  // Función para agregar un hecho a la lista de favoritos
+  // Function to add a fact to the list of favorites
   function addToFavorites() {
-      // Obtener el texto actual del contenedor de hechos
+      // Get the current text of the facts container
       const factText = factContainer.innerHTML;
 
-      // Obtener la lista de favoritos almacenada en localStorage
+      // Get the list of favorites stored in localStorage
       const storedFavorites = JSON.parse(localStorage.getItem('favorites')) || [];
 
-      // Agregar el nuevo hecho a la lista de favoritos
+      // Add a new fact to the favorites list
       storedFavorites.push(factText);
 
-      // Almacenar la lista actualizada en localStorage
+      // Store the updated list in localStorage
       localStorage.setItem('favorites', JSON.stringify(storedFavorites));
   }
 
-  // Evento al hacer clic en el botón "See new fact"
+  // Event when "See new fact" button is clicked
   newFactBtn.addEventListener('click', loadNewFact);
 
-  // Evento al hacer clic en el botón "Add to favorite"
+  // Event when "Add to favorites" button is clicked
   favoritesBtn.addEventListener('click', addToFavorites);
 
-  // Cargar un hecho al cargar la página
+  // Load a fact on the page
   loadNewFact();
 });
 

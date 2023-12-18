@@ -1,11 +1,20 @@
-/*mobile style*/
+/*Mobile styles*/
 .facts-box, .favorites-box{
     background-color: var(--peach);
     border-radius:  55px 55px 60px 60px; 
     margin: 30px 0px 30px 0px;
     box-shadow: 0px 0px 5px 5px #0000002b;
     min-width: 19rem;
+    transition: background-color 0.3s ease;
 }
+
+.facts-box:hover {
+    opacity:0.9;
+  }
+
+  .favorites-box:hover {
+    opacity:0.9;
+  }
 
 .facts-bkground img{
     height: 200px;
@@ -40,14 +49,14 @@ a {
 }
 
 
-/*desktop style responsive*/
+/*Desktop style responsive*/
 @media only screen and (min-width: 1000px) {  
     .facts-box, .favorites-box{
         background-color: var(--peach);
         border-radius:  55px 55px 60px 60px; 
         box-shadow: 0px 0px 5px 5px #0000002b;
         min-width: 500px;
-        margin-top: 28px;
+        margin-top: 90px;
         min-height: 500px
     }
 
