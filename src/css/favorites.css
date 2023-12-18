@@ -1,29 +1,5 @@
 /* Estilos de curiousfacts */
 
-/*body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-  }
-
-.text-box-facts {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: var(--medium-green);
-    border-radius: 35px;
-    margin: 0.75rem 1.5rem 0.75rem 1.5rem;
-    padding: 1rem;
-    max-width: 15rem;
-}
-
-.text-box-facts p {
-    text-align: left;
-    max-width: 14rem;
-    margin: 0;
-}
-
 
 
 /* Estilo para el botón de eliminar */
@@ -40,6 +16,6 @@ button.delete-btn:hover {
     background-color: var(--yellow); 
 }
 
-*/
+
 
 /*desktop style responsive*/
