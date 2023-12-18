@@ -1,16 +1,19 @@
 /* Estilos de curiousfacts */
 
-
-
-
-
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  
 .container-facts {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--peach);
     width: 20rem;
-    height: 40rem;
+    min-height: 37.5rem;
     border-radius: 45px;
     margin: 2rem;
     padding-bottom: 2rem;
