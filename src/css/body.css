@@ -51,15 +51,22 @@ a {
         min-height: 500px
     }
 
-    .favorites-box{
-        margin-left: 10%;
+    .facts-box{
+        margin-left: 0px;
     }
     
     .favorites-box{
-        margin-right: 30%;
+        margin-left: 150px;
     }
 
-    
+    .facts-bkground img{
+        height: 370px;
+        width: auto;
+    }
 
+    .favorites-bkground img{
+        height: 370px;
+        width: auto;
+    }
 
 }
