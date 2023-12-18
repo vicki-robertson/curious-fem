@@ -100,16 +100,17 @@ body {
 }
 
 /*desktop style responsive*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1000px) {
   
      a.back-btn {
-        margin: 2rem 53rem 1rem 0;
+        margin: 2rem 53rem 0rem 0;
     }
     
     .container-facts {
         min-width: 65rem;
         min-height: 38rem;
-        margin-top: 6rem;
+        margin-top: 2rem;
+        margin-bottom: 6rem;
     }
     
     .text-box-facts {
@@ -128,8 +129,8 @@ body {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 4.5rem;
+        gap: 5.5rem;
         min-width: 47rem;
-        padding: 1.5rem;
+        padding: 0.5rem;
     }
 }

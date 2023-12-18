@@ -23,7 +23,10 @@ button.delete-btn:hover {
     text-align: center;
     margin-left: 1rem;
     margin-top: 3rem;
-
+    background-color: var(--orange);
+    border-radius: 55px;
+    display: flex;
+    justify-content: left;
 }
 
 
