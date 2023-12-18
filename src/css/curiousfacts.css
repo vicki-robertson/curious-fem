@@ -1,4 +1,4 @@
-/* Estilos de curiousfacts */
+/* Curious Facts Page Styles */
 
 body {
     display: flex;
@@ -19,6 +19,7 @@ body {
     padding-bottom: 2rem;
 }
 
+/*Styles for the go back button*/
 .back-btn {
     display: flex;
     flex-direction: column;
@@ -29,9 +30,13 @@ body {
     color: #fff;
     cursor: pointer;
     max-height: 3.5rem;
-    margin: 2rem 13rem 1rem 0;
-    margin-right: 13rem;
+    margin: 2rem 13rem 3rem 0;
+    transition: background-color 0.3s ease;
 }
+
+.back-btn:hover {
+    filter: brightness(80%);
+  }
 
 .back-btn img {
     width: 4rem;
@@ -44,19 +49,21 @@ body {
     display: none;
 }
 
+/*Styles for the curious facts boxes*/
 .text-box-facts {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: var(--medium-green);
     border-radius: 35px;
-    margin: 2rem 1.5rem;
+    margin: 0 1.5rem 3rem 1.5rem;
     padding: 1rem 2rem;
 }
 
 .text-box-facts p {
     text-align: center;
     max-width: 14rem;
+    word-wrap: break-word;
 }
 
 .new-fact-btn img {
@@ -76,8 +83,12 @@ body {
     padding: 0 3rem;
     max-height: 3.5rem;
     margin: 1rem 0 1rem 0;
+    transition: background-color 0.3s ease;
 }
 
+.new-fact-btn:hover {
+    filter: brightness(120%);
+  }
 
 .favorites-btn img {
     width: 2rem;
@@ -97,13 +108,18 @@ body {
     cursor: pointer;
     padding: 0 2.5rem;
     max-height: 3.5rem;
+    transition: background-color 0.3s ease;
 }
 
-/*desktop style responsive*/
+.favorites-btn:hover {
+    filter: brightness(110%);
+  }
+
+/*Desktop style responsive*/
 @media only screen and (min-width: 1000px) {
   
      a.back-btn {
-        margin: 2rem 53rem 0rem 0;
+        margin: 2rem 52rem 4rem 0;
     }
     
     .container-facts {
@@ -121,6 +137,7 @@ body {
     .text-box-facts p {
         text-align: left;
         min-width: 47rem;
+        max-width: 50rem;
         padding: 1.5rem;
     }
 
