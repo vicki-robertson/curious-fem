@@ -1,4 +1,4 @@
- ## 🌸 Curiosfacts
+ ## 🌸 Curious Facts
 ¡Bienvenido a Curious Facts, donde la curiosidad se encuentra con la diversión! 🚀 Descubre hechos curiosos fascinantes y guarda tus favoritos para compartirlos con tus amigos. Este es el repositorio de la aplicación web "Curious Facts". 🌺📱
 
 ## 🌈 Características Principales
@@ -54,7 +54,7 @@ Para preguntas o asistencia, no dudes en contactarnos:
 
 - 🌸Gabriela Irimia:<br>[![LinkedIn](www.linkedin.com/in/gabriela-irimia-760110164)]</br>
 - 🌼Vicki Robertson:<br>[![LinkedIn](https://www.linkedin.com/in/vickirobertson/)]</br>
-- 🌻Hemi Hemileidis:<br>[![LinkedIn](https://www.linkedin.com/in/hemileidis/)]</br>
+- 🌻Hemileidis Castillo:<br>[![LinkedIn](https://www.linkedin.com/in/hemileidis/)]</br>
 
 **🌍 Vista de Conjunto**
 
