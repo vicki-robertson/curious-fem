@@ -14,17 +14,17 @@ footer h3 {
     font-weight: 400;
 }
 
-footer{
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}  
+
 
 /*desktop style responsive*/
 
 @media only screen and (min-width: 1000px) {  
 
-  
+    footer{
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }  
 
     footer h3 {
         font-size: 1.5rem;
