@@ -1,21 +1,35 @@
 /*mobile style*/
 footer {
     display: flex;
-    flex-direction: row;
     background-color: var(--green);
     height: 4rem; 
     width: 100%;
     justify-content: center;
+    
 }
 
 footer h3 {
     font-size: 1rem;
     font-family: Poppins, sans-serif;
     font-weight: 400;
-    
+}
+
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}  
+
+/*desktop style responsive*/
+
+@media only screen and (min-width: 1000px) {  
+
+  
+
+    footer h3 {
+        font-size: 1.5rem;
+    }
+
 }
 
 
-/*desktop style responsive*/
-
-/*desktop style responsive*/

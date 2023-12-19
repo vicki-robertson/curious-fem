@@ -59,8 +59,8 @@ p {
 
 
 
-/* desktop - mirar tamaño media query!! */
-@media only screen and (min-width: 767px) {  
+/* desktop */
+@media only screen and (min-width: 1000px) {  
     
     h1 {
         font-family: Potta One, sans-serif;

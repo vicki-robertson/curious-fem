@@ -57,3 +57,6 @@ Para preguntas o asistencia, no dudes en contactarnos:
 - 🌻Hemi Hemileidis:<br>[![LinkedIn](https://www.linkedin.com/in/hemileidis/)]</br>
 
 **🌍 Vista de Conjunto**
+![imagen-index](image.png)
+![imagen-pagian-facts](image-1.png)
+![imagen-pagina-favoritos]()

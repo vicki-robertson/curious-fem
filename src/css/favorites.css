@@ -1,71 +1,97 @@
-/* Estilos de curiousfacts */
+/* Styles for Curious Facts */
 
-/* body {
+/*Styles for the go back button*/
+.fav-back-btn {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0;
-  } */
-  
-.container-facts {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--peach);
-    width: 20rem;
-    border-radius: 45px;
-    margin: 2rem;
-    padding-bottom: 2rem;
-    flex: 1;
-    min-height: 37.5rem;
-}
-
-.back-btn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: flex-start;
     background-color: var(--green);
     border-radius: 20px;
     color: #fff;
     cursor: pointer;
     max-height: 3.5rem;
-    margin: 2rem 13rem 1rem 0;
-    margin-right: 13rem;
+    max-width: 3.5rem;
+    margin: 2rem 15rem 3rem 1.5rem;
+    transition: background-color 0.3s ease;
 }
 
-.back-btn img {
+.fav-back-btn:hover {
+    filter: brightness(80%);
+  }
+
+.fav-back-btn img {
     width: 4rem;
     height: 2rem;
     padding: 0.75rem 0;
     justify-content: center;
 }
 
-.back-btn h3 {
+.fav-back-btn h3 {
     display: none;
 }
 
-.text-box-facts {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: var(--medium-green);
+/* Styles for the delete button */
+button.delete-btn {
+    background-color: var(--light-green);
+    color: var(--black); 
+    border: none; 
+    padding: 0.5rem 1rem; 
+    border-radius: 55px; 
+    cursor: pointer;
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+
+button.delete-btn:hover {
+    background-color: var(--yellow); 
+}
+
+/* Styles for the box with info about creating Curious Facts to save */
+.info-box h2 {    
+    color: var(--black);
+    cursor: pointer;
+    max-width: 16rem;
+    text-align: center;
+    margin: 3rem 1.5rem 2rem 1.5rem;
+    background-color: var(--orange);
     border-radius: 35px;
-    margin: 0.75rem 1.5rem 0.75rem 1.5rem;
-    padding: 1rem;
-    min-width: 15rem;
-    /* flex: 1; */
-}
-
-.text-box-facts p {
-    text-align: left;
-    max-width: 14rem;
-    margin: 0;
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 2rem 0.5rem;
 }
 
 
 
+/*Desktop style responsive*/
+@media only screen and (min-width: 1000px) {
+
+    .fav-back-btn {
+        margin: 3rem 16rem 2rem 0;
+    }
+
+    a.info-box {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--orange);
+        color: var(--black);
+        cursor: pointer;
+        text-align: left;
+        border-radius: 35px;
+        margin: 4rem 27rem 3rem 0;
+    }
+
+    .info-box h2 {    
+        margin: 1rem 1rem 2rem 0;
+        font-weight: 600;
+        font-size: 30px;
+        padding: 1rem 2rem;
+        max-width: 25rem;
+    }
 
 
+<<<<<<< HEAD
 
 /*desktop style responsive*/
 @media only screen and (min-width: 768px) {
@@ -105,3 +131,15 @@
     } */
     
 }
+=======
+    button.delete-btn {
+        padding: 1rem 6rem; 
+        font-size: 20px;
+        font-weight: 600;
+        max-width: 20rem;
+        margin-bottom: 3rem;
+        align-self: center;
+    }
+}
+  
+>>>>>>> dev
