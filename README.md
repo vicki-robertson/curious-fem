@@ -7,6 +7,10 @@ Favoritos: Consulta tus favoritos en My Favorites.❤️🌟
 Diseño Atractivo: La interfaz está diseñada con ilustraciones de robots, ¡haciendo que la experiencia sea aún más divertida! 🤖✨
 Responsive: ¡Adaptable como las flores al sol! 🌞🌈
 
+## 💻 Ver la Aplicación Desplegada
+
+Puedes ver la aplicación desplegada en Vercel y explorar los hecho curiosos [aquí](https://curious-fem-deploy.vercel.app/index.html).
+
 **Tecnología y Metodología Implementada:**
 🏗️ Estructura - HTML
 🎨 Estilos - CSS
